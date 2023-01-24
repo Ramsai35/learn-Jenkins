@@ -15,7 +15,7 @@ pipeline {
    }
 
 
-   Post {
+   post {
      always {
       echo "sending mail"
      }
