@@ -13,4 +13,14 @@ pipeline {
          }
      }
    }
+
+
+   Post {
+     always {
+      echo "sending mail"
+     }
+
+
+   }
+
 }
