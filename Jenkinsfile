@@ -25,6 +25,11 @@
 
 //}
 
+@Library('roboshop') _
+
+test1.new1()
+
+
 // pipeline {
 //     agent any
 //     stages {
@@ -50,9 +55,7 @@
 //  }
 
 
-@Library('roboshop') _
 
-test1.new1()
 
 
 
