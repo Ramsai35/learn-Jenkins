@@ -25,10 +25,13 @@
 
 //}
 
+// @Library('roboshop') _
+//
+// test2.new1()
 @Library('roboshop') _
 
-test2.new1()
-
+env.abc = "Some Data"
+test1.new1()
 
 // pipeline {
 //     agent any
