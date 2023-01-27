@@ -28,10 +28,7 @@
 // @Library('roboshop') _
 //
 // test2.new1()
-@Library('roboshop') _
 
-env.abc = "Some Data"
-test1.new1()
 
 // pipeline {
 //     agent any
@@ -58,7 +55,7 @@ test1.new1()
 //  }
 
 
-
-
+@Library('roboshop') _
+ci()
 
 
