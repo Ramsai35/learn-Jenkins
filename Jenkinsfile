@@ -62,6 +62,8 @@ pipeline {
    agent {
    label 'workstation'
    }
+
+   stage {
   stages('test') {
    steps {
    script {
@@ -73,7 +75,7 @@ pipeline {
    }
   }
 
-
+}
 
 
 }
