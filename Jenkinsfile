@@ -80,6 +80,7 @@
 //
 // }
 @Library('roboshop') _
+env.xyz = "somedata"
 test1()
 
 
