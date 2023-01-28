@@ -63,8 +63,8 @@ pipeline {
    label 'workstation'
    }
 
-   stage {
-  stages('test') {
+   stages {
+  stage('test') {
    steps {
    script {
      env.abc= "Hello"
