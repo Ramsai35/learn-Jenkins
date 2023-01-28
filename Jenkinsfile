@@ -57,27 +57,29 @@
 
 @Library('roboshop') _
 
-pipeline {
+// pipeline {
+//
+//    agent {
+//    label 'workstation'
+//    }
+//
+//    stages {
+//   stage('test') {
+//    steps {
+//    script {
+//      env.abc= "Hello"
+//      def xyz = 10
+//
+//      print abc
+//      }
+//    }
+//   }
+//
+// }
+//
+//
+// }
 
-   agent {
-   label 'workstation'
-   }
-
-   stages {
-  stage('test') {
-   steps {
-   script {
-     env.abc= "Hello"
-     def xyz = 10
-
-     print abc
-     }
-   }
-  }
-
-}
-
-
-}
+test1()
 
 
