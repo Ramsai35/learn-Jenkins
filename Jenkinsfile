@@ -1,3 +1,7 @@
+@Library('roboshop') _
+env.xyz = "somedata"
+test1()
+
 //pipeline {
 
   // agent {
@@ -80,8 +84,6 @@
 //
 // }
 
-@Library('roboshop') _
-env.xyz = "somedata"
-test1()
+
 
 
